@@ -6,11 +6,12 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
-    "seed": "node -r dotenv/config ./scripts/seed.js"
+    "seed": "node -r dotenv/config ./scripts/seed"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.1",
     "@vercel/postgres": "^0.7.2",
+    "bcryptjs": "^2.4.3",
     "clsx": "^2.1.0",
     "dotenv": "^16.4.5",
     "i": "^0.3.7",
