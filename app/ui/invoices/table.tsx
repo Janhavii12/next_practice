@@ -32,6 +32,7 @@ export default async function InvoicesTable({
                         width={28}
                         height={28}
                         alt={`${invoice.name}'s profile picture`}
+                         
                       />
                       <p>{invoice.name}</p>
                     </div>
@@ -47,7 +48,7 @@ export default async function InvoicesTable({
                     <p>{formatDateToLocal(invoice.date)}</p>
                   </div>
                   <div className="flex justify-end gap-2">
-                    <UpdateInvoice id={invoice.id} />
+                  <UpdateInvoice id={invoice.id} />
                     <DeleteInvoice id={invoice.id} />
                   </div>
                 </div>
